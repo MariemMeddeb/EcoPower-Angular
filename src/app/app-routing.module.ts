@@ -18,6 +18,8 @@ const routes: Routes = [
    {path: 'cart', component: CartComponent},
    {path: 'products', component: ProductsComponent},
    {path: 'listProduct/:id', component: ProductbycatComponent },
+   
+
 
    
 ];

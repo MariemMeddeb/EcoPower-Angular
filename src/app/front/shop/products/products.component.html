@@ -142,7 +142,8 @@
             </div> <!-- price-wrap.// -->
             <p class="title mb-2">{{p.name}}</p>
             
-            <a href="#" class="btn btn-primary">Add to cart</a>
+            <a class="btn btn-primary" (click)="assignProductToCart(p.id)">Add to cart</a>
+
             <a href="#" class="btn btn-light btn-icon"> <i class="fa fa-heart"></i> </a>
           </figcaption>
           </figure>
